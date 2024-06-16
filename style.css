@@ -119,9 +119,9 @@ section h2 {
     z-index: -1;
 }
 .highlight_science {
-    background-color: #577b82; /* Highlight color */
-    color: black; /* Text color, if you want to change it */
-    border-radius: 4px; /* Optional: Rounds the corners */
+    text-decoration: underline;
+    text-decoration-color: #577b82; /* Highlight color */
+    text-decoration-thickness: 4px;
 }
 
 #team h2::before {
