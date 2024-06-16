@@ -167,9 +167,10 @@ section h2 {
 }
 
 .highlight_join {
-    background-color: #547444; /* Highlight color */
-    color: black; /* Text color, if you want to change it */
-    border-radius: 4px; /* Optional: Rounds the corners */
+    text-decoration: underline;
+    text-decoration-color: #547444; /* Highlight color */
+    text-decoration-thickness: 4px;
+
 }
 
 section .content {
@@ -191,7 +192,7 @@ section .content {
 
 .publication img {
     width: 100%; /* Full width of the column */
-    height: auto; /* Maintain aspect ratio */
+    height: auto; /* Maintain aspect ratio */t
     border: 2px solid black; /* Optional border */
 }
 
