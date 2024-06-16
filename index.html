@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Language Redirect</title>
+    <script type="text/javascript">
+        function getLanguage() {
+            var lang = navigator.language || navigator.userLanguage; // Get browser language
+            lang = lang.substr(0, 2).toLowerCase();
+
+            if(lang === 'fr') {
+                window.location.href = 'index_fr.html'; // Redirect to French version
+            } else {
+                window.location.href = 'index_en.html'; // Default to English version
+            }
+        }
+
+        getLanguage(); // Call the function on page load
+    </script>
+</head>
+<body>
+</body>
+</html>
